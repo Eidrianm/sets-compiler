@@ -1,0 +1,16 @@
+	# Definimos conjuntos
+	CONJ : A -> 0~4;
+	CONJ : B -> 2,4,5,a,A;
+	
+	# Creamos operaciones
+	OPERA : operacion1 -> & {A}{B};
+	OPERA : operacion2 -> ^^^{A};
+	
+	# Evaluamos elementos
+	EVALUAR({A,B}, operacion1);
+	
+	
+
+
+
+
